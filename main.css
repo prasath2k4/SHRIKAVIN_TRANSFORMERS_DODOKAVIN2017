@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-label {
+    font-size:24px;
+    text-align: center;
+    background-color: black ;
+    color: aqua;
+    height: 50px;
+    padding-top: 22px;
+}
+
+body {
+    background:linear-gradient(black,aqua);
+}
+
+body, html {
+    height:200%;
+}
+
+.img-holder img{
+    width: 55%;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border: 5px solid color;
+    border-radius: 20px;
+    height: 550px;
+}
+
+
+.button-holder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 5px;
+}
+
+.prevBtn, .nextBtn {
+    width: 150px;
+    height: 120pxpx;
+    border-radius: 10px;
+    font-weight: bold;
+    color: aqua;
+    background-color: black;
+    font-family: cursive;
+}
+
+.dropdown{
+    width: 330px;
+    height: 35px;
+    text-align: left;
+    font-family: cursive;
+    background-color: black ;
+    color: aqua;
+    border-radius: 8px;
+}
+
+.gobtn {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.dropdown-group{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+ 
+table {
+    background-color: black;
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+.table-header{
+    background-color: black;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+table td {
+    padding: 7px;
+    font-family: cursive;
+    color: aqua;    
+}
